@@ -6,4 +6,4 @@
 5. Start the server with `node app.js`  
 
 ## Source Code:
-1. Code forked from `https://github.com/opentok/OpenTokRTC`
+1. Forked from `https://github.com/opentok/OpenTokRTC`
