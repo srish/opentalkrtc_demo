@@ -170,20 +170,24 @@ input[type='submit'], button, .btn-standard {
   font-weight: 300;
   font-size: 22px;
   text-decoration: none;
-  background-color: #529ec8;
+  background-color: white;
+  /*background-color: #529ec8;
   background-image: -webkit-linear-gradient(#529ec8, #205e82);
   background-image: linear-gradient(#529ec8, #205e82);
-  background-color: #3a7ea6;
-  color: #fff; }
+  background-color: #3a7ea6;*/
+
+  color: black; 
+
+}
   input[type='submit']:hover, button:hover, .btn-standard:hover {
-    background-color: #3a7ea6;
+   /* background-color: #3a7ea6;
     background-image: -webkit-linear-gradient(#3a7ea6, #3a7ea6);
-    background-image: linear-gradient(#3a7ea6, #3a7ea6); }
+    background-image: linear-gradient(#3a7ea6, #3a7ea6);*/ }
   input[type='submit']:disabled, button:disabled, .btn-standard:disabled {
-    background-color: #529ec8;
+    /*background-color: #529ec8;
     background-image: -webkit-linear-gradient(#529ec8, #205e82);
-    background-image: linear-gradient(#529ec8, #205e82);
-    opacity: 0.5;
+    background-image: linear-gradient(#529ec8, #205e82);*/
+   /* opacity: 0.5;*/
     cursor: default; }
 
 .btn-grey {
@@ -238,13 +242,14 @@ html, body {
   height: 100%; }
 
 body {
-  background: #7fbfd6 no-repeat center center fixed;
+  /*background: #7fbfd6 no-repeat center center fixed;*/
+  background: #2e7daa no-repeat center center fixed;
   /* Old browsers */
-  background-image: radial-gradient(circle at 50% 50%, #7fbfd6, #5598b0);
+  /*background-image: radial-gradient(circle at 50% 50%, #7fbfd6, #5598b0);
   background-image: -webkit-radial-gradient(50% 50%, circle, #7fbfd6, #5598b0);
   background-image: -moz-radial-gradient(50% 50%, circle, #7fbfd6, #5598b0);
   background-image: -ms-radial-gradient(50% 50%, circle, #7fbfd6, #5598b0);
-  background-image: -o-radial-gradient(50% 50%, circle, #7fbfd6, #5598b0);
+  background-image: -o-radial-gradient(50% 50%, circle, #7fbfd6, #5598b0);*/
   min-height: 100%; }
 
 .container {
@@ -292,10 +297,9 @@ h1 b{
   margin: auto; }
 
 #submitButton {
-  color: white;
+  color: #2e7daa;
   font-family: 'AvantGardeGothicITCW01X'; }
   #submitButton:hover {
-    color: white;
     text-decoration: none; }
 
 input {
